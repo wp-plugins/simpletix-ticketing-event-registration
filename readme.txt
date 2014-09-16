@@ -4,7 +4,7 @@ Donate link: http://simpletix.com/
 Tags: tickets, registration, ticketing, events, festival, ticket, ticketing
 Requires at least: 3.0.1
 Tested up to: 1.1
-Stable tag: 1.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,11 +28,14 @@ This section describes how to install the SimpleTix plugin and get it working.
 
 = Do you need an existing SimpleTix account? =
 
-No, you can sign up for on from inside WordPress. It takes just 30 seconds.
+No, you can sign up for a free account from inside WordPress. It takes just 30 seconds.
 
 = Is this free? =
 
 SimpleTix is Free for Free events. For paid events we charge a small flat-rate per ticket fee. See SimpleTix.com for pricing.
+
+= Are there any limits? =
+There's no limits. You can unlimited different events, event times, and price groups.
 
 == Screenshots ==
 
