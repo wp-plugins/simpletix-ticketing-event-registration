@@ -1,13 +1,17 @@
 === Plugin Name ===
 Contributors: simpletick
+Donate link: http://simpletix.com/
 Tags: tickets, registration, ticketing, events, festival, ticket, ticketing
 Requires at least: 3.0.1
-Tested up to: 1.0
-Stable tag: 1.0
+Tested up to: 1.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin instantly allows you to post your event on SimpleTix, then add a button on WordPress site to buy tickets.
+
+== Upgrade Notice ==
+
+Added screenshots
 
 == Description ==
 
@@ -15,23 +19,20 @@ This plugin instantly allows you to post your event on SimpleTix, then add a but
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+This section describes how to install the SimpleTix plugin and get it working.
 
-e.g.
-
-1. Upload all of the files to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Enter in your SimpleTix domain or click create account
+1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Enter in your SimpleTix domain or click create account
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Do you need an existing SimpleTix account? =
 
-An answer to that question.
+No, you can sign up for on from inside WordPress. It takes just 30 seconds.
 
-= What about foo bar? =
+= Is this free? =
 
-Answer to foo bar dilemma.
+SimpleTix is Free for Free events. For paid events we charge a small flat-rate per ticket fee. See SimpleTix.com for pricing.
 
 == Screenshots ==
 
@@ -46,9 +47,8 @@ Answer to foo bar dilemma.
 = 1.0 =
 * Our first release of this new WordPress app
 
-== A brief Markdown Example ==
+== How it works? ==
 
-How it works?
 
 1. You will either connect to your existing SimpleTix site or create a new event on a new site
 2. Then in your WordPress site go the edit or compose screen for the either a blog post or CMS page
@@ -58,7 +58,7 @@ How it works?
 6. If you choose image button select from our existing ticket or register buttons, or upload your own
 7. Then click insert. This will insert the SimpleTix short code to your page.
 
-SimpleTix takes are of:
+= SimpleTix takes care of: =
 
 * Ticket inventory
 * Order checkout and linking to your payment gateway, like Stripe
