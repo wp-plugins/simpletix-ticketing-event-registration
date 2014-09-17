@@ -59,7 +59,7 @@ class SimpleTix{
 			$button_detail	=	$wpdb->get_results( $wpdb->prepare( "SELECT * FROM simpletix_button WHERE button_id=%d",$button_id ) );					
 			$file_name		=	end(explode('SimpleTix',$button_detail[0]->button_url));		
 			$upload_dir 	=	wp_upload_dir();					
-			$targetPath		=	$upload_dir['basedir'].'/SimpleTix/'.$file_name;						
+			$targetPath		=	$upload_dir['basedir'].'/simpletix-ticketing-event-registration/'.$file_name;						
 			$query			=	$wpdb->prepare( "DELETE FROM simpletix_button WHERE button_id=%d",$button_id );
 			
 			if( $wpdb->query( $query ) )
@@ -133,7 +133,7 @@ class SimpleTix{
 		global $wpdb; 
 		$button_detail	=	$wpdb->get_results( $wpdb->prepare( "SELECT * FROM simpletix_button 1=%d", 1 ) );				
 		$upload_dir 	=	wp_upload_dir();
-		$targetPath		=	$upload_dir['basedir'].'/SimpleTix';
+		$targetPath		=	$upload_dir['basedir'].'/simpletix-ticketing-event-registration';
 
 		if ( !file_exists( $targetPath ) )
 		{
@@ -146,7 +146,7 @@ class SimpleTix{
 		{
 			$tempFile 		=	$_FILES['Filedata']['tmp_name'];
 			$targetFile		=	rtrim($targetPath,'/') . '/' .time().$_FILES['Filedata']['name'];
-			$file_url		=	$upload_dir['baseurl'].'/SimpleTix/'.time().$_FILES['Filedata']['name'];
+			$file_url		=	$upload_dir['baseurl'].'/simpletix-ticketing-event-registration/'.time().$_FILES['Filedata']['name'];
 			
 			// Validate the file type	
 			$fileTypes = array('jpg','jpeg','gif','png'); // File extensions
@@ -245,31 +245,31 @@ class SimpleTix{
 		wp_register_script('jquery', ("http://code.jquery.com/jquery-1.11.1.min.js"), false);
 		wp_enqueue_script('jquery');
 		
-		wp_register_script( 'simpletix_colorbox', plugins_url( 'SimpleTix/js/colorbox.js' ) );
+		wp_register_script( 'simpletix_colorbox', plugins_url( 'simpletix-ticketing-event-registration/js/colorbox.js' ) );
 		wp_enqueue_script( 'simpletix_colorbox' );
 		
-		wp_register_script( 'simpletix_hashchange', plugins_url( 'SimpleTix/js/jquery.hashchange.min.js' ) );
+		wp_register_script( 'simpletix_hashchange', plugins_url( 'simpletix-ticketing-event-registration/js/jquery.hashchange.min.js' ) );
 		wp_enqueue_script( 'simpletix_hashchange' );
 		
-		wp_register_script( 'simpletix_easytab', plugins_url( 'SimpleTix/js/jquery.easytabs.min.js' ) );
+		wp_register_script( 'simpletix_easytab', plugins_url( 'simpletix-ticketing-event-registration/js/jquery.easytabs.min.js' ) );
 		wp_enqueue_script( 'simpletix_easytab' );		
 		
-		wp_register_script( 'simpletix_uploadify', plugins_url( 'SimpleTix/uploadify/jquery.uploadify.min.js' ) );
+		wp_register_script( 'simpletix_uploadify', plugins_url( 'simpletix-ticketing-event-registration/uploadify/jquery.uploadify.min.js' ) );
 		wp_enqueue_script( 'simpletix_uploadify' );		
 		
-		wp_register_style( 'simpletix_colorbox_css', plugins_url( 'SimpleTix/css/colorbox.css' ) );
+		wp_register_style( 'simpletix_colorbox_css', plugins_url( 'simpletix-ticketing-event-registration/css/colorbox.css' ) );
 		wp_enqueue_style( 'simpletix_colorbox_css' );				
 		
- 		wp_register_style( 'simpletix_tabs', plugins_url( 'SimpleTix/css/tabs.css' ) );
+ 		wp_register_style( 'simpletix_tabs', plugins_url( 'simpletix-ticketing-event-registration/css/tabs.css' ) );
 		wp_enqueue_style( 'simpletix_tabs' );				
 		
-		wp_register_style( 'simpletix_uploadify', plugins_url( 'SimpleTix/uploadify/uploadify.css' ) );
+		wp_register_style( 'simpletix_uploadify', plugins_url( 'simpletix-ticketing-event-registration/uploadify/uploadify.css' ) );
 		wp_enqueue_style( 'simpletix_uploadify' );				
 		
-		wp_register_style( 'simpletix_style', plugins_url( 'SimpleTix/css/style.css' ) );
+		wp_register_style( 'simpletix_style', plugins_url( 'simpletix-ticketing-event-registration/css/style.css' ) );
 		wp_enqueue_style( 'simpletix_style' );						
 		
-		wp_register_style( 'simpletix_horizontal_tabs', plugins_url( 'SimpleTix/css/horizontal-tabs.css' ) );
+		wp_register_style( 'simpletix_horizontal_tabs', plugins_url( 'simpletix-ticketing-event-registration/css/horizontal-tabs.css' ) );
 		wp_enqueue_style( 'simpletix_horizontal_tabs' );						
 	}	
 	
@@ -608,7 +608,7 @@ class SimpleTix{
 					<br/>				
 					
 					<div id="event_type_block" style="display:none;"><input type="radio" name="event_type" id="event1" value="e" checked="checked"/><b>Event Page</b>&nbsp;(Link to the event details and display list of times)&nbsp;&nbsp;<input type="radio"  name="event_type" id="event2" value="s" /><b>Specific Event Time Page</B>&nbsp;(Will display tickets for single time)</div>
-					<img id="simpletix_loading_image" style="display:none;margin-left:200px;" src="<?php echo WP_PLUGIN_URL; ?>/SimpleTix/images/loading1.gif" />
+					<img id="simpletix_loading_image" style="display:none;margin-left:200px;" src="<?php echo WP_PLUGIN_URL; ?>/simpletix-ticketing-event-registration/images/loading1.gif" />
 					
 					<div id="simpletix_event_block" style="display:none">						
 						<h3>Select an Event Time</h3>												

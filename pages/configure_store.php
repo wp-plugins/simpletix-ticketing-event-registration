@@ -73,9 +73,9 @@
 		}						
 	}		
 ?>
-<link href="<?php echo WP_PLUGIN_URL; ?>/SimpleTix/css/style.css" rel="stylesheet"/>
-<link href="<?php echo WP_PLUGIN_URL; ?>/SimpleTix/css/bootstrap.min.css" rel="stylesheet"/>
-<script type="text/javascript" src="<?php echo WP_PLUGIN_URL; ?>/SimpleTix/js/jquery.js"></script>
+<link href="<?php echo WP_PLUGIN_URL; ?>/simpletix-ticketing-event-registration/css/style.css" rel="stylesheet"/>
+<link href="<?php echo WP_PLUGIN_URL; ?>/simpletix-ticketing-event-registration/css/bootstrap.min.css" rel="stylesheet"/>
+<script type="text/javascript" src="<?php echo WP_PLUGIN_URL; ?>/simpletix-ticketing-event-registration/js/jquery.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function(){					
 		jQuery('#simpletix_form').submit(function(){									
