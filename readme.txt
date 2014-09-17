@@ -3,8 +3,8 @@ Contributors: simpletick
 Donate link: http://simpletix.com/
 Tags: tickets, registration, ticketing, events, festival, ticket, ticketing
 Requires at least: 3.0.1
-Tested up to: 1.1
-Stable tag: 1.3
+Tested up to: 1.4
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ SimpleTix is Free for Free events. For paid events we charge a small flat-rate p
 
 = Are there any limits? =
 There's no limits. You can unlimited different events, event times, and price groups.
+
+= How long has SimpleTix been around? =
+SimpleTix started in 2009 to bring an enterprise-grade ticketing solution to venues and event promoters around the world. To date over 750,000 tickets have been sold on the SimpleTix platform in 40 countries.
+
 
 == Screenshots ==
 
