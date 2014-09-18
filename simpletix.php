@@ -804,13 +804,19 @@ class SimpleTix{
 		$ssl_url		=	get_option( 'simpletix_sslurl' );				
 		$event_array	=	explode( ',',$atts['event_id']);
 		
+		$event_detail	=	$wpdb->get_results( 'SELECT * FROM simpletix_event WHERE event_id="'.$event_array[0].'"' );
+			
+		$event_type		=	$event_detail[0]->event_type;
+		
+		$type			=	( $event_type == 4) ? 'OpenTicket' : 'Event';
+		
 		if( count( $event_array ) > 1 )
 		{
-			$url	=	$ssl_url.'ticket-software/Event/'.$event_array[0].'/Time/'.$event_array[1];
+			$url	=	$ssl_url.'ticket-software/'.$type.'/'.$event_array[0].'/Time/'.$event_array[1];
 		}
 		else
 		{
-			$url	=	$ssl_url.'ticket-software/Event/'.$event_array[0].'/View';
+			$url	=	$ssl_url.'ticket-software/'.$type.'/'.$event_array[0].'/View';
 		}
 		
 		$link_array		=	explode( ',',$atts['link_id']);
