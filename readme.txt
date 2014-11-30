@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: simpletick
 Donate link: http://simpletix.com/
-Tags: tickets, registration, ticketing, events, festival, ticket, ticketing
+Tags: tickets, registration, ticketing, events, festival, ticket, ticketing, conference, theater, meeting, etickets, e-tickets, event registration, event reg
 Requires at least: 3.0.1
-Tested up to: 1.5.3
-Stable tag: 1.5.2
+Tested up to: 4.0
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,15 @@ Added screenshots
 
 == Description ==
 
-This plugin instantly allows you to post your event on SimpleTix, then add a button on WordPress site to buy tickets. SimpleTix is free for free events and there's no monthly fee. This plugin allows you to add a sharp looking "Buy Tickets" or "Register Now" button on an blog or page in your WordPress site. Your customers can then register for the event directly on your WordPress site. They can even pay via credit card or with PayPal.
+This plugin instantly allows you to post your event on [SimpleTix](http://SimpleTix.com/) , then add a button on WordPress site to buy tickets. This plugin allows you to add a sharp looking "Buy Tickets" or "Register Now" button on an blog or page in your WordPress site. 
+
+**Highlights include:**
+
+* **Free for free events.**  SimpleTix is free for free events and there's no monthly fee. 
+* **Customers won't leave your site.**  Your customers can then register for the event directly on your WordPress site. They can even pay via credit card or with PayPal.
+* **General Admission.**  Sell tickets for your live events like theatre, conferences, and festivals.
+* **Sell Flex Passes.**  Sell tickets for tours, ice skating, or any other activity that does not have a specific date/time. 
+* **Mobile Tickets.**  Customers can have the tickets sent right to their mobile phones via Text/SMS message.
 
 == Installation ==
 
