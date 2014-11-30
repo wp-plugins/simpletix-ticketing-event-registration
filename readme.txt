@@ -3,7 +3,7 @@ Contributors: simpletick
 Donate link: http://simpletix.com/
 Tags: tickets, registration, ticketing, events, festival, ticket, ticketing
 Requires at least: 3.0.1
-Tested up to: 1.5.2
+Tested up to: 1.5.3
 Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,12 +43,13 @@ SimpleTix started in 2009 to bring an enterprise-grade ticketing solution to ven
 
 == Screenshots ==
 
-1. This is how the button would appear on your WordPress site to sell ticket to a festival
-2. This is how the button would appear on your WordPress site to ask people to register for a party
-3. This is how the button would appear on your WordPress site to ask people to register for a workshop or meeting
-4. The ticket ordering page
-5. The shopping cart page and payment option page
-6. The checkout page
+1. This is how the button would appear on your WordPress site to sell ticket to a festival.
+2. This is how the button would appear on your WordPress site to ask people to register for a party.
+3. This is how the button would appear on your WordPress site to ask people to register for a workshop or meeting.
+4. The ticket ordering page.
+5. The shopping cart page and payment option page.
+6. The checkout page.
+
 == Changelog ==
 
 = 1.0 =

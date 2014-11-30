@@ -3,8 +3,8 @@
 Plugin Name: SimpleTix
 Plugin URI: http://wordpress.org/plugins/simpletix-event-registration-and-ticketing/ 
 Description: SimpleTix event registration and ticketing plug-in.
-Author: Rohit Sharma
-Author URI: http://rohitwebguru.com/
+Author: Team SimpleTix
+Author URI: http://www.SimpleTix.com/
 Version: 1.0
 */
 
