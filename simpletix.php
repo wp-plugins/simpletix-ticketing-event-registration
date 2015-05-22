@@ -242,7 +242,7 @@ class SimpleTix{
 	function simpletix_admin_scripts( )
 	{			
 		wp_deregister_script( 'jquery' ); // deregisters the default WordPress jQuery  
-		wp_register_script('jquery', ("http://code.jquery.com/jquery-1.11.1.min.js"), false);
+		wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"), false);
 		wp_enqueue_script('jquery');
 		
 		wp_register_script( 'simpletix_colorbox', plugins_url( 'simpletix-ticketing-event-registration/js/colorbox.js' ) );
